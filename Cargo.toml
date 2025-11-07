@@ -3,6 +3,18 @@ name = "rs-jsonl2x"
 version = "0.1.0"
 edition = "2024"
 
+description = "Converts the json lines to a sheet"
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-jsonl2x"
+homepage = "https://github.com/takanoriyanagitani/rs-jsonl2x"
+documentation = "https://docs.rs/rs-jsonl2x/latest"
+keywords = ["json", "jsonl", "ndjson", "xlsx", "sheet"]
+categories = ["command-line-utilities"]
+
+exclude = [
+	"jsonl2x",
+]
+
 [lints.rust]
 unsafe_code = "forbid"
 
