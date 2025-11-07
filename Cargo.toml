@@ -1,0 +1,29 @@
+[package]
+name = "rs-jsonl2x"
+version = "0.1.0"
+edition = "2024"
+
+[lints.rust]
+unsafe_code = "forbid"
+
+[lints.clippy]
+unwrap_used = "deny"
+expect_used = "deny"
+
+[[bin]]
+name = "jsonl2x"
+
+[dependencies.clap]
+version = "4"
+features = ["derive"]
+
+[dependencies.serde_json]
+version = "1"
+default-features = false
+features = [
+	"std",
+]
+
+[dependencies.rust_xlsxwriter]
+version = "0"
+default-features = true
